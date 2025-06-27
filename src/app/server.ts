@@ -1,7 +1,7 @@
 import app from "./app";
 
 let server;
-const port = 3000;
+const port = 7000;
 
 
 const bootstrap = async () => {
@@ -9,3 +9,5 @@ const bootstrap = async () => {
         console.log(`Example app listening on port ${port}`)
     })
 }
+
+bootstrap()

@@ -30,3 +30,9 @@ $ npm i --save-dev @types/express
 --------------------------------------------
 # for starting server
 $ node ./dist/app/app.js
+
+------------------------------------------
+
+# for  typescript file change any auto update in dist -
+
+$ node tsc -w
