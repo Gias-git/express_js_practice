@@ -36,3 +36,7 @@ $ node ./dist/app/app.js
 # for  typescript file change any auto update in dist -
 
 $ node tsc -w
+
+# when change in js file auto server update
+
+$ npm i -D nodemon
