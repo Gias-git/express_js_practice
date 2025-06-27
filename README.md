@@ -40,3 +40,10 @@ $ node tsc -w
 # when change in js file auto server update
 
 $ npm i -D nodemon
+
+
+# for start a server by script 
+- package.json 
+"start" : "nodemon ./dist/app/server.js"
+
+$ npm start
