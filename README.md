@@ -18,3 +18,15 @@ $ npm i express
 
 # Step 4: Initialize TypeScript configuration
 $ tsc --init
+
+
+# for root - 
+
+##  "outDir": "./dist/",
+##   "rootDir": "./src/",
+----------------------------------------
+$ npm i --save-dev @types/express
+
+--------------------------------------------
+# for starting server
+$ node ./dist/app/app.js
