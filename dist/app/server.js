@@ -13,9 +13,12 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 const app_1 = __importDefault(require("./app"));
+const config_1 = require("./config/config");
 let server;
 const port = 7000;
 const bootstrap = () => __awaiter(void 0, void 0, void 0, function* () {
+    yield config_1.client.connect();
+    console.log('connected to mongodb');
     app_1.default.listen(port, () => {
         console.log(`Example app listening on port ${port}`);
     });
